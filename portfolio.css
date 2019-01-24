@@ -1,0 +1,59 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+body {
+    background-color: lightblue;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
+
+h1 {
+  font-family: verdana
+}
+
+h2 {
+font-family: arial;
+font-size: 26px
+
+}
+
+p {
+  font-family: times;
+  font-size: 20px
+}
+
+nav .active {
+  background-color: black;
+}
